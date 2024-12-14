@@ -1,0 +1,28 @@
+.festival_item {
+  background-color: #f2f2f2;
+  margin: 20px 10px;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.festival_item:active {
+  background-color: #eaeaea;
+}
+
+.festival_name {
+  font-family: "Pretendard-SemiBold";
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.festival_info {
+  display: flex;
+  gap: 10px;
+}
+.festival_info > span {
+  background-color: var(--green);
+  padding: 5px 10px;
+  border-radius: 10px;
+  color: white;
+  font-size: var(--font-xxs-size);
+}

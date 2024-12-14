@@ -1,0 +1,27 @@
+.check_input_div {
+  display: flex;
+  align-items: center;
+}
+
+.check_input_div > button {
+  white-space: nowrap;
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: var(--green);
+  color: white;
+  border-radius: 16px;
+  padding: 8px 12px;
+  font-size: var(--font-xxs-size);
+}
+.check_input_div > button:active {
+  background-color: var(--dark-green);
+}
+
+.check_input_div > button.disable {
+  cursor: default;
+  background-color: var(--light-green);
+}
+.check_input_div > button.disable:active {
+  cursor: default;
+  background-color: var(--light-green);
+}

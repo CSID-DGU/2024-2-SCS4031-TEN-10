@@ -1,0 +1,56 @@
+.festival_detail {
+  padding: 20px;
+}
+
+/* 타이틀 */
+.festival_title {
+  display: flex;
+  align-items: center;
+}
+.festival_title > p {
+  font-family: "Pretendard-SemiBold";
+  font-size: var(--font-md-size);
+  margin: 0;
+  line-height: 2rem;
+}
+.festival_title span {
+  white-space: nowrap;
+  background-color: var(--green);
+  color: white;
+  font-size: var(--font-xxs-size);
+  margin-right: 12px;
+  padding: 5px 10px;
+  border-radius: 20px;
+  vertical-align: middle;
+}
+
+/* 본문 */
+.festival_content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 22px;
+}
+.festival_content > div {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+.festival_content > div > img {
+  background-color: #eaeaea;
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  padding: 5px;
+  border-radius: 100px;
+}
+.festival_content > div > p {
+  margin: 0;
+}
+
+.festival_content > pre {
+  margin: 0;
+  line-height: 22px;
+  white-space: pre-wrap;
+}

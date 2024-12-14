@@ -1,0 +1,25 @@
+.search {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.search_input {
+  margin-top: 20px;
+  padding: 14px;
+  width: 90%;
+  border: 1px solid var(--light-gray);
+  border-radius: 20px;
+}
+.search_input:focus {
+  border: 1px solid var(--light-green);
+}
+
+.search_info {
+  text-align: center;
+  margin: 0 auto;
+  width: 90%;
+}
+.search_info > pre {
+  margin-top: 30px;
+  color: var(--gray);
+}
